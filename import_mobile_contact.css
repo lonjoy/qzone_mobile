@@ -1,0 +1,13 @@
+﻿/*
+ * Copy Right: Tencent ISUX
+ * Project: Qzone V6
+ * Comments: 手机空间公共样式
+ * Export to: all
+ * @author: Chandleryu
+*/
+
+.contact {height:435px;width:658px;margin:50px auto 80px;position:relative;background-image: url(img/bg_contact.png);font-family: 微软雅黑;font-size:14px;;}
+.contact a {color:#26709a;}
+.contact .contact-weibo {position: absolute;left: 125px;top: 126px;}
+.contact .contact-blog {position: absolute;left: 125px;top: 265px;}
+.contact .contact-luntan {position: absolute;left: 125px;top: 392px;}

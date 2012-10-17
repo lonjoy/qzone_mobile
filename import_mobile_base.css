@@ -1,0 +1,54 @@
+﻿/*
+ * Copy Right: Tencent ISUX
+ * Project: Qzone V6
+ * Comments: 手机空间公共样式
+ * Export to: all
+ * @author: Chandleryu
+*/
+
+/*base*/
+.none {display:none}
+.clr {clear: both;height: 1px;overflow: hidden;}
+body {color:#373737;}
+.wrapper {width:960px;margin:0 auto;}
+.clearfix:before,
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.clearfix:after {clear: both;}
+.clearfix {zoom: 1;} /* IE < 8 */
+.transition {-webkit-transition: all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s;}
+.texthidden {position: absolute !important;clip: rect(1px, 1px, 1px, 1px);padding:0 !important;border:0 !important;height: 1px !important;width: 1px !important;overflow: hidden;}
+
+/* 头部
+ *---------------------------------------------------------------------------------*/
+#page-header {height:108px;background:url(img/hero-top-border.png) bottom center repeat-x;padding-bottom:2px;}
+#page-header .wrapper {position:relative;}
+
+/* logo */
+#page-header .logo {display:block;width:140px;height:48px;background-image: url(slice/logo.png);position:absolute;left:0;top:32px;}
+#page-header .logo span {position: absolute !important;clip: rect(1px, 1px, 1px, 1px);padding:0 !important;border:0 !important;height: 1px !important;width: 1px !important;overflow: hidden;}
+
+/* 导航 */
+.top-nav {position:absolute;right:0;top:60px;}
+.top-nav li{float:left;margin-left:62px;}
+.top-nav a {display:block;}
+.top-nav a span {position: absolute !important;clip: rect(1px, 1px, 1px, 1px);padding:0 !important;border:0 !important;height: 1px !important;width: 1px !important;overflow: hidden;}
+.top-nav .nav-1{background-image: url(slice/nav-1.png);height:24px;width:46px;}
+.top-nav .current .nav-1,
+.top-nav .nav-1:hover{background-image: url(slice/nav-1-hover.png)}
+.top-nav .nav-2{background-image: url(slice/nav-2.png);height:24px;width:46px;}
+.top-nav .current .nav-2,
+.top-nav .nav-2:hover{background-image: url(slice/nav-2-hover.png)}
+.top-nav .nav-3{background-image: url(slice/nav-3.png);height:24px;width:94px;}
+.top-nav .current .nav-3,
+.top-nav .nav-3:hover{background-image: url(slice/nav-3-hover.png)}
+
+/* page-footer
+ *---------------------------------------------------------------------------------*/
+#page-footer{color:#9c9c9c;text-decoration:none;text-align:center;background:#f3f3f3;padding:28px 0;}
+#page-footer a{color:#9c9c9c;text-decoration:none;text-align:center;}
+#page-footer a:hover,.links a:hover{text-decoration:underline;}

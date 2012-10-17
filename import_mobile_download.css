@@ -1,0 +1,155 @@
+﻿/*
+ * Copy Right: Tencent ISUX
+ * Project: Qzone V6
+ * Comments: 手机空间公共样式
+ * Export to: all
+ * @author: Chandleryu
+*/
+#page-content {margin-bottom:40px;}
+
+
+.header-1 {display:block;height:24px;width:105px;background-image: url(slice/download/header-1.png);}
+.header-2 {display:block;height:24px;width:105px;background-image: url(slice/download/header-2.png)}
+.header-3 {display:block;height:24px;width:143px;background-image: url(slice/download/header-3.png)}
+.header-4 {display:block;height:24px;width:205px;background-image: url(slice/download/header-4.png)}
+
+/* 按系统
+ *---------------------------------------------------------------------------------*/
+.download-system {border-bottom:1px solid #e7e7e7;padding-top:45px;margin:0 auto 40px;}
+.download-system ul {overflow:hidden;*zoom:1;padding:0 0 45px;}
+
+.download-system .system-1 {float:left;width:275px;margin-right:105px;}
+.download-system .system-2 {float:left;width:275px;margin-right:125px;}
+.download-system .system-3 {float:left;width:160px;}
+
+.download-system .system-1 h3 {margin:30px auto 35px;display:block;height:83px;width:174px;background-image: url(slice/download/apple.png)}
+.download-system .system-2 h3 {margin:30px auto;display:block;height:88px;width:207px;background-image: url(slice/download/android.png)}
+.download-system .system-3 h3 {margin:30px auto;display:block;height:88px;width:157px;background-image: url(slice/download/symbian.png)}
+.download-system a,
+.download-button a {display:block;height:44px;float:left;margin-right:15px}
+
+.wrapper .download-iphone,
+.wrapper .download-iphone{width:138px;background-image: url(slice/download/btn-download-iphone.png)}
+.wrapper .download-iphone:hover {background-image: url(slice/download/btn-download-iphone-hover.png)}
+.wrapper .download-ipad {width:118px;margin-right:0;background-image: url(slice/download/btn-download-ipad.png)}
+.wrapper .download-ipad:hover {background-image: url(slice/download/btn-download-ipad-hover.png)}
+.wrapper .download-android {width:145px;background-image: url(slice/download/btn-download-android.png)}
+.wrapper .download-android:hover {background-image: url(slice/download/btn-download-android-hover.png)}
+.wrapper .download-pad {width:111px;margin-right:0;background-image: url(slice/download/btn-download-pad.png)}
+.wrapper .download-pad:hover {background-image: url(slice/download/btn-download-pad-hover.png)}
+.wrapper .download-symbian {width:148px;float:none;margin:0 auto;background-image: url(slice/download/btn-download-symbian.png)}
+.wrapper .download-symbian:hover {background-image: url(slice/download/btn-download-symbian-hover.png)}
+
+/* 按手机型号
+ *---------------------------------------------------------------------------------*/
+.bold {font-weight:bold;}
+.phoneSort .phonePic{width:370px; float:left;position:relative;}
+.phoneSort .chooseSort{margin-left:380px;}
+.phoneSort #currentImg1{background:url(img/downLoad0ca6c2.png) no-repeat -15px -135px;width:280px;height:210px;}
+.phoneSort #currentImg2{width:232px;height:64px;}
+.phoneSort #currentImg2 div{width:100%;height:100%;background:url(img/LOGOb0ec1ce.png) no-repeat -18px -10px;}
+.phoneSort #currentImg2 #appleImg{background-position:-505px -391px;}
+.phoneSort #currentImg2 #htcImg{background-position:-18px -10px;}
+.phoneSort #currentImg2 #motImg{background-position:-260px -10px;}
+.phoneSort #currentImg2 #nokiaImg{background-position:-18px -88px;}
+.phoneSort #currentImg2 #sonyImg{background-position:-260px -88px;}
+.phoneSort #currentImg2 #samImg{background-position:-502px -18px;}
+.phoneSort #currentImg2 #googleImg{background-position:-18px -475px;}
+.phoneSort #currentImg2 #lgImg{background-position:-18px -168px;}
+.phoneSort #currentImg2 #acerImg{background-position:-502px -88px;}
+.phoneSort #currentImg2 #huaweiImg{background-position:-260px -245px;}
+.phoneSort #currentImg2 #lenovoImg{background-position:-502px -245px;}
+.phoneSort #currentImg2 #zteImg{background-position:-260px -395px;}
+.phoneSort #currentImg2 #philipsImg{background-position:-502px -168px;}
+.phoneSort #currentImg2 #apandaImg{background-position:-502px -320px;}
+.phoneSort #currentImg2 #qigiImg{background-position:-260px -320px;}
+.phoneSort #currentImg2 #asusImg{background-position:-18px -245px;}
+.phoneSort #currentImg2 #aigoImg{background-position:-260px -168px;}
+.phoneSort #currentImg2 #ktouchImg{background-position:-18px -395px ;}
+.phoneSort #currentImg2 #meizuImg{background-position:-18px -320px;}
+.phoneSort #currentImg2 #miImg{background-position:-260px -472px;}/*gabyliu*/
+.phoneSort #currentImg3{width:160px;heightx:250px;}
+.phoneSort #currentImg3 p{text-align:center; font-weight:bold;}
+.phoneSort #currentImg4{padding-left:190px;position:absolute;top:80px;}
+.sub_title_box{position:relative;}
+.allPhones{position:absolute;top:15px;right:35px;}
+
+
+.download-phone {float:left;border-right:1px solid #e0e0e0;width:590px;height:360px;position:relative;z-index: 10;}
+.download-phone h2 {margin-bottom:25px;}
+.download-phone .phone-thumb {height:246px;width:238px;position:absolute;left:0;top:50px;}
+.download-phone .phone-choose {position:absolute;left:240px;top:50px;}
+.download-phone .choose-1 {margin-bottom:14px;display:block;height:17px;width:113px;background-image: url(slice/download/choose-1.png)}
+.download-phone .choose-2 {margin-bottom:14px;display:block;height:17px;width:65px;background-image: url(slice/download/choose-2.png)}
+.download-phone .choose-3 {margin-bottom:14px;display:block;height:17px;width:65px;background-image: url(slice/download/choose-3.png)}
+
+
+.chooseBTBrand{position:relative;margin:0;padding:0;height:46px;width:273px;font-size:14px;}
+.chooseBTBrand a:focus{outline:0;}
+.chooseBTBrand a{outline:none;text-decoration:none;height:46px;width:253px;display:block;line-height:46px; padding-left:20px;color:#666;background:url(img/downLoad0ca6c2.png) no-repeat -18px -19px;}
+.chooseBTBrand a:hover{background:url(img/downLoad0ca6c2.png) no-repeat -295px -19px;}
+.chooseBTBrand a em{position:absolute;top:0;right:0px;width:46px;height:44px;display:block;background:url(img/downLoad0ca6c2.png) no-repeat -575px -20px;}
+.chooseBTBrand a.active{padding-left:19px;width:245px;background:#FFF;line-height:44px;border-top:1px solid #ccc;border-right:1px solid #ccc;border-left:1px solid #ccc;border-top-right-radius:9px;border-top-left-radius:9px;background-image: none;}
+.chooseBTBrand{z-index:60;}
+
+.chooseBTType{position:relative;margin:0;padding:0;height:46px;width:273px;font-size:14px;}
+.chooseBTType a{text-decoration:none;height:46px;width:253px;display:block;line-height:46px; padding-left:20px;color:#666;background:url(img/downLoad0ca6c2.png) no-repeat -18px -19px;}
+.chooseBTType a:hover{background:url(img/downLoad0ca6c2.png) no-repeat -295px -19px;}
+.chooseBTType a em{position:absolute;top:0;right:0px;width:46px;height:44px;display:block;background:url(img/downLoad0ca6c2.png) no-repeat -575px -20px;}
+.chooseBTType a.active{padding-left:19px;width:245px;background:#FFF;line-height:44px;border-top:1px solid #ccc;border-right:1px solid #ccc;border-left:1px solid #ccc;border-top-right-radius:9px;border-top-left-radius:9px;}
+.chooseBTType{z-index:40;}
+
+/*弹出框样式*/
+.chooseBlock {padding: 0 0 20px 0;position: relative;margin: 0;}
+.theBrands{top:77px;z-index:50;background:#FFF;position:absolute;margin:0px 0 30px 0px;width:510px;border:1px solid #ccc;box-shadow:1px 1px 1px #ccc;border-radius:7px;border-top-left-radius:0px;padding:20px 10px 20px 10px;}
+.theTypes{top:77px;z-index:30;background:#FFF;position:absolute;margin:0px 0 30px 0px;width:510px;border:1px solid #ccc;box-shadow:1px 1px 1px #ccc;border-radius:7px;border-top-left-radius:0px;padding:20px 10px 20px 10px;}
+.theTypes{padding:20px 10px 20px 10px;width:490px;z-index:10;}
+.theTypes h4 {margin: 10px 10px;font-size: 14px;}
+.theTypes #nokiaTypes{height:270px;overflow:auto;scrollbar-face-color:#fff;scrollbar-arrow-color:#ccc;scrollbar-face-color:#ccc;scrollbar-shadow-color:#fff;scrollbar-base-color:#fff;scrollbar-darkshadow-color:#fff;scrollbar-track-color:#fff;}
+#brandList li{margin:0 0px 10px 0;padding:1px;float:left;height:48px;padding:0;width:168px;background:url(img/LOGO0ec1ce.png) no-repeat 0px 0px;}
+#brandList li.appleLogo{background-position:-360px -281px;}
+#brandList li.HTCLogo{background-position:0px 0px;}
+#brandList li.MotLogo{background-position:-180px 0px;}
+#brandList li.NokiaLogo{background-position:0px -56px;}
+#brandList li.SonyLogo{background-position:-180px -56px;}
+#brandList li.SamsungLogo{background-position:-360px 0px;}
+#brandList li.GoogleLogo{background-position:0px -335px;}
+#brandList li.LGLogo{background-position:0px -112px;}
+#brandList li.AcerLogo{background-position:-360px -56px;}
+#brandList li.HUAWEILogo{background-position:-180px -168px;}
+#brandList li.LenovoLogo{background-position:-362px -168px;}
+#brandList li.ZTELogo{background-position:-180px -281px;}
+#brandList li.PhilipsLogo{background-position:-360px -110px;}
+#brandList li.APANDALogo{background-position:-360px -225px;}
+#brandList li.QIGILogo{background-position:-183px -225px;}
+#brandList li.ASUSLogo{background-position:0 -168px;}
+#brandList li.AIGOLogo{background-position:-183px -111px;}
+#brandList li.K-TouchLogo{background-position:0 -281px;}
+#brandList li.Meizu{background-position:-2px -225px;}
+#brandList li.Mi{background-position:-180px -335px;}/*gabyliu*/
+#brandList li a{height:46px;width:166px;display:block;text-indent:-9999px;}
+#brandList li a:hover{border:1px solid #66b049;}
+.theTypes ul li{float:left;padding:10px 0 10px 10px;}
+#fitVersion{color:#666;height:39px;}
+.fitVersionBut{height:39px;width:168px;background:url(img/downLoad0ca6c2.png) no-repeat -19px -79px;}
+.fitVersionBut a{background:none;font-size:16px;height:39px;width:168px;display:block;line-height:39px; font-weight:bold;color:#FFF;text-decoration:none;font-family:"微软雅黑";}
+.fitVersionBut a span{width:115px;float:left;height:39px;text-align:center;}
+.fitVersionBut a:hover{background:url(img/downLoad0ca6c2.png) no-repeat -199px -79px;}
+
+
+/* 二维码
+ *---------------------------------------------------------------------------------*/
+.download-erweima {float:left;margin-left:56px;*display:inline;width:288px;margin-bottom:55px;}
+.download-erweima h2 {margin-bottom:60px;}
+.download-erweima img {border:1px solid #ececec;padding:15px;float:left;margin-right:15px;_display:inline;}
+.download-erweima p {font-size:14px;color:#565656;line-height:2;}
+
+/* 短信
+ *---------------------------------------------------------------------------------*/
+/*
+.download-text {float:left;margin-left:56px;*display:inline;width:288px;}
+.download-text h2 {margin-bottom:20px;}
+.download-text p {margin-bottom:15px;font-size:14px;color:#565656;line-height:2;}
+.download-text form {display:block;height:38px;width:211px;position:relative;background-image: url(slice/input_phone.png);}
+.download-text .textinput {height:25px;line-height:25px;width:150px;padding:0 5px;border:0 none;position:absolute;left:7px;top:7px;}
+.download-text .submit {border:0 none;position:absolute;top:5px;left:167px;height:28px;width:38px;background-color: transparent;}*/

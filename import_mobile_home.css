@@ -12,9 +12,9 @@
 .hero .wrapper {position:relative;}
 .hero .next {display:block;height:52px;width:52px;background-image: url(slice/btn-next.png);position:absolute;right:0;top:220px;}
 .hero .phone {background-image: url(img/hero-phone-bg.png);height:456px;width:311px;position:absolute;top:34px;left:0;}
-.bg1{background:#fff2e8 url(img/hero-bg-1.jpg) no-repeat center top;height:490px; position:absolute; z-index:2;}
-.bg2{background:#1b1323 url(img/hero-bg-2.jpg) no-repeat center top;height:490px; position:absolute; z-index:2;}
-.bg3{background:#65aef0 url(img/hero-bg-3.jpg) no-repeat center top;height:490px; position:absolute; z-index:2;}
+.bg1{background:#fff2e8 url(img/hero-bg-1.jpg) no-repeat center top;height:490px; position:absolute; z-index:2;width:100%}
+.bg2{background:#1b1323 url(img/hero-bg-2.jpg) no-repeat center top;height:490px; position:absolute; z-index:2;width:100%}
+.bg3{background:#65aef0 url(img/hero-bg-3.jpg) no-repeat center top;height:490px; position:absolute; z-index:2;width:100%}
 .phone .phone-inner {height:250px;width:166px;position:absolute;left:97px;top:68px;}
 .bg1 .phone .phone-inner{background-image: url(img/hero-phone-1.jpg);}
 .bg2 .phone .phone-inner{background-image: url(img/hero-phone-2.jpg);}

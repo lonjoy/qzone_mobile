@@ -57,7 +57,16 @@ body {color:#373737;}
 .bg2{width:320px;float:left;background:#1b1323 url(img/mobile/bg1.jpg) no-repeat center top;height:272px; }
 .bg3{width:320px;float:left;background:#65aef0 url(img/mobile/bg1.jpg) no-repeat center top;height:272px;}
 
-.hero .btn-1 {display:block;height:34px;width:107px;background-color:red;position:absolute;left: 166px;top: 174px;}
+/* iphone 4+
+ *---------------------------------------------------------------------------------*/
+@media screen and (-webkit-min-device-pixel-ratio: 1.5) {
+	.bg1{background:#fff2e8 url(img/mobile/bg1@2x.jpg) no-repeat center top; }
+	.bg2{background:#1b1323 url(img/mobile/bg1@2x.jpg) no-repeat center top;}
+	.bg3{background:#65aef0 url(img/mobile/bg1@2x.jpg) no-repeat center top;}
+}
+
+
+.hero .btn-1 {display:block;background-color:red;position:absolute;left: 0;top: 0;height:272px;width:320px;}
 .hero .btn-2,
 .hero .btn-3,
 .hero .btn-4 {display:none}

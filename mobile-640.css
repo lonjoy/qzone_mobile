@@ -33,24 +33,14 @@ body {color:#373737;}
 #page-header .wrapper {position:relative;}
 
 /* logo */
-#page-header .logo {display:block;width:140px;height:48px;background-image: url(slice/logo.png);position:absolute;left:0;top:32px;}
+#page-header .logo {display:block;width:140px;height:48px;background-image: url(slice/logo.png);position:absolute;left:24px;top:32px;}
 #page-header .logo span {position: absolute !important;clip: rect(1px, 1px, 1px, 1px);padding:0 !important;border:0 !important;height: 1px !important;width: 1px !important;overflow: hidden;}
 
 /* 导航 */
-.top-nav {position:absolute;right:0;top:60px;}
+.top-nav {position:absolute;right:040px;top:40px;font-size:24px;}
 .top-nav li{float:left;margin-left:62px;}
-.top-nav a {display:block;}
-.top-nav a span {position: absolute !important;clip: rect(1px, 1px, 1px, 1px);padding:0 !important;border:0 !important;
-	height: 1px !important;width: 1px !important;overflow: hidden;}
-.top-nav .nav-1{background-image: url(slice/nav-1.png);height:24px;width:46px;}
-.top-nav .current .nav-1,
-.top-nav .nav-1:hover{background-image: url(slice/nav-1-hover.png)}
-.top-nav .nav-2{background-image: url(slice/nav-2.png);height:24px;width:46px;}
-.top-nav .current .nav-2,
-.top-nav .nav-2:hover{background-image: url(slice/nav-2-hover.png)}
-.top-nav .nav-3{background-image: url(slice/nav-3.png);height:24px;width:94px;}
-.top-nav .current .nav-3,
-.top-nav .nav-3:hover{background-image: url(slice/nav-3-hover.png)}
+.top-nav a {display:block;color:#9d9d9d;}
+.top-nav .current a {display:block;color:#000;}
 
 /* page-footer
  *---------------------------------------------------------------------------------*/
@@ -77,9 +67,6 @@ body {color:#373737;}
 
 
 .hero .btn-1 {display:block;height:68px;width:215px;background-image: url(slice/btn-1.png);position:absolute;left: 324px;top: 349px;}
-.hero .btn-1:hover {background-image:none}
-.hero .btn-1 b {height:68px;width:215px;background-image: url(slice/btn-1-hover.png);position:absolute;left:0;top:0;display:none}
-.hero .btn-1:hover b{display:block;}
 .hero .btn-2,
 .hero .btn-3,
 .hero .btn-4 {display:none}

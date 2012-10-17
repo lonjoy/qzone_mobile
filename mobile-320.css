@@ -60,9 +60,9 @@ body {color:#373737;}
 /* iphone 4+
  *---------------------------------------------------------------------------------*/
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
-	.bg1{background:#fff2e8 url(img/mobile/bg1@2x.jpg) no-repeat center top; }
-	.bg2{background:#1b1323 url(img/mobile/bg1@2x.jpg) no-repeat center top;}
-	.bg3{background:#65aef0 url(img/mobile/bg1@2x.jpg) no-repeat center top;}
+	.bg1{background:#fff2e8 url(img/mobile/bg1@2x.jpg) no-repeat center top;background-size: 100% 100%; }
+	.bg2{background:#1b1323 url(img/mobile/bg1@2x.jpg) no-repeat center top;background-size: 100% 100%;}
+	.bg3{background:#65aef0 url(img/mobile/bg1@2x.jpg) no-repeat center top;background-size: 100% 100%;}
 }
 
 

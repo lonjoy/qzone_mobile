@@ -8,8 +8,9 @@
 
 @import url("import_reset.css");
 
-
+#page-content {width:320px;}
 /*base*/
+
 .none {display:none}
 .clr {clear: both;height: 1px;overflow: hidden;}
 body {color:#373737;}

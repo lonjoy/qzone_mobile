@@ -54,15 +54,17 @@ body {color:#373737;}
 .hero .hero-inner {width:320%;}
 .hero .next {display:none}
 .bg1{width:320px;float:left;background:#fff2e8 url(img/mobile/bg1.jpg) no-repeat center top;height:272px; }
-.bg2{width:320px;float:left;background:#1b1323 url(img/mobile/bg1.jpg) no-repeat center top;height:272px; }
-.bg3{width:320px;float:left;background:#65aef0 url(img/mobile/bg1.jpg) no-repeat center top;height:272px;}
+.bg2{width:320px;float:left;background:#1b1323 url(img/mobile/bg2.jpg) no-repeat center top;height:272px; }
+.bg3{width:320px;float:left;background:#65aef0 url(img/mobile/bg3.jpg) no-repeat center top;height:272px;}
 
 /* iphone 4+
  *---------------------------------------------------------------------------------*/
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
+
+	#page-header .logo {background: url(slice/logo.png);background-size: 100% 100%; }
 	.bg1{background:#fff2e8 url(img/mobile/bg1@2x.jpg) no-repeat center top;background-size: 100% 100%; }
-	.bg2{background:#1b1323 url(img/mobile/bg1@2x.jpg) no-repeat center top;background-size: 100% 100%;}
-	.bg3{background:#65aef0 url(img/mobile/bg1@2x.jpg) no-repeat center top;background-size: 100% 100%;}
+	.bg2{background:#1b1323 url(img/mobile/bg2@2x.jpg) no-repeat center top;background-size: 100% 100%;}
+	.bg3{background:#65aef0 url(img/mobile/bg3@2x.jpg) no-repeat center top;background-size: 100% 100%;}
 }
 
 

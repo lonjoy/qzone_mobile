@@ -8,7 +8,7 @@
 
 @import url("import_reset.css");
 
-#page-content {width:320px;}
+body {width:320px;}
 /*base*/
 
 .none {display:none}

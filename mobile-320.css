@@ -33,7 +33,7 @@ body {color:#373737;}
 #page-header .wrapper {position:relative;}
 
 /* logo */
-#page-header .logo {display:block;width:72px;height:28px;background-image: url(slice/mobile/logo.png);position:absolute;left:12px;top:16px;}
+#page-header .logo {display:block;width:70px;height:24px;background-image: url(slice/mobile/logo.png);position:absolute;left:12px;top:16px;}
 #page-header .logo span {position: absolute !important;clip: rect(1px, 1px, 1px, 1px);padding:0 !important;border:0 !important;height: 1px !important;width: 1px !important;overflow: hidden;}
 
 /* 导航 */

@@ -29,44 +29,46 @@ body {color:#373737;}
 
 /* 头部
  *---------------------------------------------------------------------------------*/
-#page-header {height:108px;background:url(img/hero-top-border.png) bottom center repeat-x;padding-bottom:2px;}
+#page-header {height:53px;background:url(img/hero-top-border.png) bottom center repeat-x;padding-bottom:2px;}
 #page-header .wrapper {position:relative;}
 
 /* logo */
-#page-header .logo {display:block;width:140px;height:48px;background-image: url(slice/logo.png);position:absolute;left:24px;top:32px;}
+#page-header .logo {display:block;width:70px;height:24px;background-image: url(slice/mobile/logo.png);position:absolute;left:12px;top:16px;}
 #page-header .logo span {position: absolute !important;clip: rect(1px, 1px, 1px, 1px);padding:0 !important;border:0 !important;height: 1px !important;width: 1px !important;overflow: hidden;}
 
 /* 导航 */
-.top-nav {position:absolute;right:040px;top:40px;font-size:24px;}
-.top-nav li{float:left;margin-left:62px;}
+.top-nav {position:absolute;right:20px;top:20px;font-size:13px;}
+.top-nav li{float:left;margin-left:28px;}
 .top-nav a {display:block;color:#9d9d9d;}
 .top-nav .current a {display:block;color:#000;}
 
 /* page-footer
  *---------------------------------------------------------------------------------*/
-#page-footer{color:#9c9c9c;text-decoration:none;text-align:center;background:#f3f3f3;padding:28px 0;}
+#page-footer{color:#9c9c9c;text-decoration:none;text-align:center;background:#f3f3f3;padding:20px 10px;}
 #page-footer a{color:#9c9c9c;text-decoration:none;text-align:center;}
 #page-footer a:hover,.links a:hover{text-decoration:underline;}
 
 /* hero */
-.hero {height:544px;position:relative;z-index:2; width:100%;}
-.hero .wrapper {position:relative;}
+.hero {height:272px;position:relative;z-index:2; width:100%;overflow-x: scroll;overflow-y: hidden;}
+
+.hero .hero-inner {width:320%;}
 .hero .next {display:none}
-.hero .phone {background-image: url(img/mobile/hero-phone-bg.png);height:450px;width:308px;position:absolute;top:95px;left:0;}
-.bg1{background:#fff2e8 url(img/mobile/hero-bg-1.jpg) no-repeat center top;height:544px; position:absolute; z-index:2;}
-.bg2{background:#1b1323 url(img/mobile/hero-bg-2.jpg) no-repeat center top;height:544px; position:absolute; z-index:2;}
-.bg3{background:#65aef0 url(img/mobile/hero-bg-3.jpg) no-repeat center top;height:544px; position:absolute; z-index:2;}
-.phone .phone-inner {height:250px;width:166px;position:absolute;left:97px;top:68px;}
-.bg1 .phone .phone-inner{background-image: url(img/hero-phone-1.jpg);}
-.bg2 .phone .phone-inner{background-image: url(img/hero-phone-2.jpg);}
-.bg3 .phone .phone-inner{background-image: url(img/hero-phone-3.jpg);}
-.hero .slogan {display:block;height:218px;width:302px;position:absolute;left:200px;top:100px;}
-.bg1 .slogan {background-image: url(img/mobile/hero-text-1.png);position:absolute;left:320px;top:103px;}
-.bg2 .slogan {background-image: url(img/mobile/hero-text-2.png);position:absolute;left:320px;top:103px;}
-.bg3 .slogan {background-image: url(img/mobile/hero-text-3.png);position:absolute;left:320px;top:103px;}
+.bg1{width:320px;float:left;background:#fff2e8 url(img/mobile/bg1.jpg) no-repeat center top;height:272px; }
+.bg2{width:320px;float:left;background:#1b1323 url(img/mobile/bg2.jpg) no-repeat center top;height:272px; }
+.bg3{width:320px;float:left;background:#65aef0 url(img/mobile/bg3.jpg) no-repeat center top;height:272px;}
+
+/* iphone 4+
+ *---------------------------------------------------------------------------------*/
+@media screen and (-webkit-min-device-pixel-ratio: 1.5) {
+
+	#page-header .logo {background: url(slice/logo.png);background-size: 100% 100%; }
+	.bg1{background:#fff2e8 url(img/mobile/bg1@2x.jpg) no-repeat center top;background-size: 100% 100%; }
+	.bg2{background:#1b1323 url(img/mobile/bg2@2x.jpg) no-repeat center top;background-size: 100% 100%;}
+	.bg3{background:#65aef0 url(img/mobile/bg3@2x.jpg) no-repeat center top;background-size: 100% 100%;}
+}
 
 
-.hero .btn-1 {display:block;height:68px;width:215px;background-image: url(slice/btn-1.png);position:absolute;left: 324px;top: 349px;}
+.hero .btn-1 {display:block;position:absolute;left: 0;top: 0;height:272px;width:320px;}
 .hero .btn-2,
 .hero .btn-3,
 .hero .btn-4 {display:none}

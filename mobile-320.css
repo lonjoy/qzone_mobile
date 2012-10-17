@@ -44,7 +44,7 @@ body {color:#373737;}
 
 /* page-footer
  *---------------------------------------------------------------------------------*/
-#page-footer{color:#9c9c9c;text-decoration:none;text-align:center;background:#f3f3f3;padding:20px 10px;}
+#page-footer{color:#9c9c9c;text-decoration:none;text-align:center;background:#f3f3f3;padding:20px 10px;font-size:12px;}
 #page-footer a{color:#9c9c9c;text-decoration:none;text-align:center;}
 #page-footer a:hover,.links a:hover{text-decoration:underline;}
 

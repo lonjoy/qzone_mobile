@@ -9,7 +9,7 @@
 @media screen and (max-width:860px) and (min-width:481px) {
 
 	body {min-width:670px;_width:860px;}
-
+	.top-nav {top:45px;}
 	.hero .slogan {display:block;position:absolute;left:368px;top:40px;}
 	.bg1 .slogan {height:222px;width:252px;background-image: url(img/mobile/hero-text-1.png);position:absolute;}
 	.bg2 .slogan {height:221px;width:287px;background-image: url(img/mobile/hero-text-2.png);position:absolute;}

@@ -11,7 +11,7 @@
 	body {min-width:320px;}
 	.top-nav {position:absolute;right:20px;top:50px;font-size:13px;}
 	.top-nav li{float:left;margin-left:28px;}
-
+	#page-header .logo {height:24px;width:70px;background-size: 100% 100%;}
 	.top-nav a {display:block;color:#9d9d9d;background-image: none!important;height:auto;width:auto!important;}
 	.top-nav a span {display:block;}
 	.top-nav .current span {color:#000;}

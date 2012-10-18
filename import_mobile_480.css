@@ -36,6 +36,7 @@
 	.hero .btn-3,
 	.hero .btn-4 {display:none}
 
+	#page-footer {width:100%;font-size:12px;;}
 	#download-section {display:none}
 	#download-footer {display:none}
 

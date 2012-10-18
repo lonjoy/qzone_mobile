@@ -7,12 +7,12 @@
 */
 
 @media screen and (max-width:480px) {
-
+	html {-webkit-text-size-adjust: none; }
 	body {min-width:320px;}
-	.top-nav {position:absolute;right:20px;top:20px;font-size:13px;}
-	.top-nav li{float:left;margin-left:28px;}
 	#page-header {height:53px;}
 	#page-header .logo {height:24px;width:70px;background-size: 100% 100%;position:absolute;left:12px;top:16px;}
+	.top-nav {position:absolute;right:10px;top:20px;font-size:13px;}
+	.top-nav li{float:left;margin-left:28px;}
 	.top-nav a {display:block;color:#9d9d9d;background-image: none!important;height:auto;width:auto!important;}
 	.top-nav a span {display:block;}
 	.top-nav .current span {color:#000;}
@@ -25,13 +25,13 @@
 	.hero .phone {height:228px;width:157px;background-size:100% 100%;}
 	.phone .phone-inner {height:125px;width:83px;background-size: 100% 100%;left:51px;top:34px;}
 
-	.hero .slogan {display:block;position:absolute;left:184px;top:40px;}
+	.hero .slogan {display:block;position:absolute;left:180px;top:40px;}
 	.bg1 .slogan {height:111px;width:126px;background-image: url(img/mobile/hero-text-1.png);background-size:100% 100%;position:absolute;}
 	.bg2 .slogan {height:111px;width:123px;background-image: url(img/mobile/hero-text-2.png);background-size:100% 100%;position:absolute;}
 	.bg3 .slogan {height:102px;width:138px;background-image: url(img/mobile/hero-text-3.png);background-size:100% 100%;position:absolute;}
 	.hero .next {display:none}
 	.hero .btn-1 {background-image: none;position:absolute;top:0;left:0;height:270px;width:100%;}
-	.hero .btn-1 b {height:34px;width:107px;display:block;background-size:100% 100%;position:absolute;left: 186px;top: 165px;}
+	.hero .btn-1 b {height:34px;width:107px;display:block;background-size:100% 100%;position:absolute;left: 180px;top: 165px;}
 	.hero .btn-2,
 	.hero .btn-3,
 	.hero .btn-4 {display:none}

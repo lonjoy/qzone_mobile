@@ -1,0 +1,22 @@
+﻿/*
+ * Copy Right: Tencent ISUX
+ * Project: Qzone V6
+ * Comments: 手机空间
+ * Export to: all
+ * @author: Chandleryu
+*/
+
+@media screen and (max-width:860px) and (min-width:481px) {
+
+	body {min-width:670px;_width:860px;}
+
+	.hero .slogan {display:block;position:absolute;left:368px;top:40px;}
+	.bg1 .slogan {height:222px;width:252px;background-image: url(img/mobile/hero-text-1.png);position:absolute;}
+	.bg2 .slogan {height:221px;width:287px;background-image: url(img/mobile/hero-text-2.png);position:absolute;}
+	.bg3 .slogan {height:204px;width:297px;background-image: url(img/mobile/hero-text-3.png);position:absolute;}
+
+	.hero .btn-1 {top:280px;}
+	.hero .btn-2 {top:355px;}
+	.hero .btn-3 {top:355px;}
+	.hero .btn-4 {top:362px;}
+}
